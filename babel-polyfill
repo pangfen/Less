@@ -1,0 +1,5 @@
+ Babel是一个转码器，将ES6代码转为ES5代码，不用考虑环境支持问题。默认只转换新的JavaScript语法（syntax），如箭头函数等，而不转换新的API，比如Symbol、
+ Promise等全局对象，及一些定义在全局对象上的方法（如Object.assign），因此我们需要polyfill。
+ 要在源代码之前运行，需要让它成为一个 dependency（上线时的依赖）,而不是一个 devDependency（开发时的依赖）。
+ 
+
