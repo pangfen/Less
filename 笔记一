@@ -2,3 +2,5 @@
    background-color: tint(rgba(66, 97, 5, 0.5),50%);
 }
 //Less Tint 它用于混合颜色与白色，因为你减少颜色的比例。 它有以下参数：color, weight(通过在颜色和白色之间提供百分比平衡点来指定元素的权重)
+
+new message
